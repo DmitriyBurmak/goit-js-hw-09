@@ -16,3 +16,129 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+body {
+  /* background-color: #f8f8f8; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  list-style: none;
+  background-color: #fff;
+  max-width: 1440px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.gallery-item {
+  transition: transform 0.3s;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.basicLightbox--visible img {
+  max-width: 80vw;
+  max-height: 80vh;
+}
+
+.home-page {
+  font-size: medium;
+  color: blueviolet;
+}
+
+.feedback-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 296px;
+  background-color: #fff;
+}
+
+.email-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: 72px;
+}
+
+.input-email {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+.message-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: 112px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.textarea-message {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 80px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.btn-task-nine {
+  border: none; /* Вилучає обведення */
+  outline: none; /* Вилучає обведення при фокусуванні */
+  cursor: pointer; /* Задає вигляд курсору при наведенні */
+  padding: 0; /* Вилучає відступи */
+  font: inherit; /* Успадковує шрифт від батьківського елемента */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background-color: #4e75ff;
+}
