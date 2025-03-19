@@ -92,6 +92,6 @@ galleryContainer.innerHTML = galleryMarkup;
 
 // Ініціалізація SimpleLightbox
 const lightbox = new SimpleLightbox('.gallery a', {
-  captionsData: 'alt', // Використовуємо alt атрибут для підписів
-  captionDelay: 250, // Підпис з'являється через 250 мс
+  captionsData: 'alt',
+  captionDelay: 250,
 });
