@@ -50,11 +50,6 @@ body {
   cursor: pointer;
 }
 
-.basicLightbox--visible img {
-  max-width: 80vw;
-  max-height: 80vh;
-}
-
 .home-page {
   font-size: medium;
   color: blueviolet;
@@ -141,4 +136,10 @@ body {
   width: 95px;
   height: 40px;
   background-color: #4e75ff;
+}
+
+.sl-wrapper {
+  width: 1440px;
+  height: 696px;
+  background-color: rgba(46, 47, 66, 0.8);
 }
